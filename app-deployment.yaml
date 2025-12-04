@@ -1,24 +1,24 @@
-apiVersion: apps/v1 
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: valaxy-regapp
-  labels: 
-     app: regapp
+  name: draganov-app
+  labels:
+     app: app
 
 spec:
-  replicas: 2 
+  replicas: 2
   selector:
     matchLabels:
-      app: regapp
+      app: app
 
   template:
     metadata:
       labels:
-        app: regapp
+        app: app
     spec:
       containers:
-      - name: regapp
-        image: valaxy/regapp
+      - name: app
+        image: draganov07/app
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

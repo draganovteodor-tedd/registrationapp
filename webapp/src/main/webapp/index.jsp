@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Must Register for DevOps  Learning</h1>
+    <h1>Register for Poker Game</Legend></h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
@@ -8,7 +8,7 @@
     <input type="text" placeholder="Enter My Name" name="Name" id="Name" required>
     <br>
     
-    <label for="mobile"><b>Enter mobile</b></label>
+    <label for="mobile"><b>Enter mobile number</b></label>
     <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
     <br>
 
@@ -31,7 +31,7 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1> Thankyou, Happy Learning </h1>
+   <h1> Thank you for registration! </h1>
 
   
 </form>
