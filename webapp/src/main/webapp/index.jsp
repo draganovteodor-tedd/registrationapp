@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <title>Register for Poker Game</title>
     <style>
-        /* Фон на цялата страница */
+      
         body {
-            background-image: url('static/images/background.jpg'); /* пътя към картинката */
+            background-image: url('static/images/background.jpg'); 
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -16,7 +16,7 @@
             margin: 0;
         }
 
-        /* Контейнер за формата */
+       
         .container {
             background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
@@ -26,7 +26,7 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
 
-        /* Полета на формата */
+       
         input[type=text], input[type=password] {
             width: 100%;
             padding: 10px;
@@ -37,7 +37,7 @@
             box-sizing: border-box;
         }
 
-        /* Бутон за регистрация */
+      
         .registerbtn {
             background-color: #4CAF50;
             color: white;
@@ -77,7 +77,7 @@
         <hr>
 
         <label for="Name"><b>Enter Name</b></label>
-        <input type="text" placeholder="Enter My Name" name="Name" id="Name" required>
+        <input type="text" placeholder="Enter Name" name="Name" id="Name" required>
 
         <label for="mobile"><b>Enter Mobile Number</b></label>
         <input type="text" placeholder="Enter Mobile Number" name="mobile" id="mobile" required>
